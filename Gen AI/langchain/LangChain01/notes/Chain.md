@@ -1,0 +1,2 @@
+# Chain
+> Forming a core connection among one or several large language models in certain sophisticated applications, it becomes necessary to chain LLMs together either with each other or with other elements.
