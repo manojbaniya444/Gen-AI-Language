@@ -5,6 +5,9 @@ import os
 from dotenv import load_dotenv
 
 from third_parties.linkedin import scrape_linkedin_profile
+from third_parties.twitter import scrape_user_tweets
+from agents.linkedin_lookup_agent import linkedin_lookup_agent
+from agents.twitter_lookup_agent import twitter_lookup_agent
 
 load_dotenv()
 
@@ -13,14 +16,18 @@ information = """Hi my name is john doe. I am 25 years old and I am a software e
 if __name__ == "__main__":
     print("Hello from the langchain.")
     
-    summary_template = """Given the information {information} about a person from I want you to create:
+    linkedin_url_profile = linkedin_lookup_agent(name = "Manoj Kumar Baniya")
+    linkedin_data = scrape_linkedin_profile(linkedin_profile_url = linkedin_url_profile)
+    
+    twitter_username = twitter_lookup_agent(name = "Manoj Kumar Baniya")
+    tweets = scrape_user_tweets(username=twitter_username, num_tweets=90)
+    
+    summary_template = """Given the linkedin information {linkedin_information} and twitter information {twitter_information} about a person from I want you to create:
     1. a short summary
     2. Interesting facts about them
     """
     
-    summary_prompt_template = PromptTemplate(input_variables = ["information"], template = summary_template)
-    
-    # # TODO: api key
+    summary_prompt_template = PromptTemplate(input_variables = ["linkedin_information", "twitter_information"], template = summary_template)
     llm = CTransformers(
         model = "../../local LLM/llama2-7b-q2chat.bin",
         model_type = "llama",
@@ -34,10 +41,9 @@ if __name__ == "__main__":
     url = os.environ["API_ENDPOINT_PROFILE"]
     
     # give the response from the api json in the chain
-    linkedin_data = scrape_linkedin_profile(linkedin_profile_url = url)
-    
-    # give the response from the api json in the chain
-    # TODO: llm chain is depriciated now use llm chains runnables
-    response = chain.invoke(input = [{"information": information}])
+    # TODO: llm chain is depriciated now use llm chains runnables 
+    # TODO: add the information from respective linkedin and twitter agents response here
+    response = chain.invoke(input = [{"linkedin_information": information,
+                                      "twitter_information": information}])
     
     print(response["text"])
