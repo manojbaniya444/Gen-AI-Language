@@ -1,0 +1,125 @@
+{
+    "public_identifier": "manoj-baniya-747683265",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/manoj-baniya-747683265/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240531%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240531T115218Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=903f0a946005e9583f3eddeda15a9c708feda4fbbb41c3835a3a2fb0d1b70d51",
+    "background_cover_image_url": null,
+    "first_name": "Manoj",
+    "last_name": "Baniya",
+    "full_name": "Manoj Baniya",
+    "follower_count": 219,
+    "occupation": null,
+    "headline": "Computer Engineering Student",
+    "summary": "Exploring...",
+    "country": "NP",
+    "country_full_name": "Nepal",
+    "city": "Dharan",
+    "state": "Kosi Zone",
+    "experiences": [],
+    "education": [
+      {
+        "starts_at": {
+          "day": 1,
+          "month": 4,
+          "year": 2021
+        },
+        "ends_at": {
+          "day": 31,
+          "month": 1,
+          "year": 2025
+        },
+        "field_of_study": "Computer Engineering",
+        "degree_name": "Bachelor of Engineering - BE",
+        "school": "Tribhuvan University, IOE, Purwanchal Campus",
+        "school_linkedin_profile_url": "https://www.linkedin.com/company/79680297/",
+        "school_facebook_profile_url": null,
+        "description": null,
+        "logo_url": "https://media.licdn.com/dms/image/C4E0BAQHXQ5Dz8G-K0w/company-logo_400_400/0/1630643160026?e=1725494400&v=beta&t=P6wgevXPbi66fnN-ENJTdDOWBg5QNnW3NqbL94PLOXY",
+        "grade": null,
+        "activities_and_societies": null
+      },
+      {
+        "starts_at": {
+          "day": 1,
+          "month": 9,
+          "year": 2018
+        },
+        "ends_at": {
+          "day": 28,
+          "month": 2,
+          "year": 2021
+        },
+        "field_of_study": "Science (PCM)",
+        "degree_name": "High School",
+        "school": "Devi Higher Secondary School",
+        "school_linkedin_profile_url": null,
+        "school_facebook_profile_url": null,
+        "description": null,
+        "logo_url": null,
+        "grade": null,
+        "activities_and_societies": null
+      }
+    ],
+    "languages": [],
+    "accomplishment_organisations": [],
+    "accomplishment_publications": [],
+    "accomplishment_honors_awards": [],
+    "accomplishment_patents": [],
+    "accomplishment_courses": [],
+    "accomplishment_projects": [],
+    "accomplishment_test_scores": [],
+    "volunteer_work": [],
+    "certifications": [
+      {
+        "starts_at": {
+          "day": 1,
+          "month": 12,
+          "year": 2023
+        },
+        "ends_at": null,
+        "name": "Connecting to MongoDB in Node.js",
+        "license_number": "MDByu0k6n0xlh",
+        "display_source": "learn.mongodb.com",
+        "authority": "MongoDB",
+        "url": "https://learn.mongodb.com/c/06x5bggNR0Sh6slJ1Xcrug"
+      },
+      {
+        "starts_at": {
+          "day": 1,
+          "month": 12,
+          "year": 2023
+        },
+        "ends_at": null,
+        "name": "Connecting to a MongoDB Database",
+        "license_number": "MDBdr9km1n5fl",
+        "display_source": "learn.mongodb.com",
+        "authority": "MongoDB",
+        "url": "https://learn.mongodb.com/c/C-zhTqaGRKOMNsKTUO8IHA"
+      }
+    ],
+    "connections": 217,
+    "people_also_viewed": [],
+    "recommendations": [],
+    "activities": [],
+    "similarly_named_profiles": [],
+    "articles": [],
+    "groups": [
+      {
+        "profile_pic_url": "https://media.licdn.com/dms/image/C4D07AQHQyoqpbvwhLA/group-logo_image-shrink_48x48/0/1538129557777?e=1717761600&v=beta&t=iyHRAuTdIxtdv6eK_0iPkWdLCaJezTm40c2O2F5DpH0",
+        "name": "Machine Learning Community (Moderated)",
+        "url": "https://www.linkedin.com/groups/961087"
+      },
+      {
+        "profile_pic_url": "https://media.licdn.com/dms/image/D5607AQHdqi6MwQtHYw/group-logo_image-shrink_400x400/0/1716867917796?e=1717761600&v=beta&t=9S89jfCEK9cgGYwV_ehNUjNF8FGiIE3SWYrkTLIBoaw",
+        "name": "Gen AI & ML Engineer, Data Scientist, Analyst, Python, Data Science, Robotics, JavaScript Developer",
+        "url": "https://www.linkedin.com/groups/7039829"
+      }
+    ],
+    "skills": [],
+    "inferred_salary": null,
+    "gender": null,
+    "birth_date": null,
+    "industry": null,
+    "extra": null,
+    "interests": [],
+    "personal_emails": [],
+    "personal_numbers": []
+  }
