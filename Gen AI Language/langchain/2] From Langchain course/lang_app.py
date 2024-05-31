@@ -1,4 +1,5 @@
 from langchain_core.prompts import PromptTemplate
+from langchain_community.llms import CTransformers
 from langchain.chains import LLMChain
 import os
 from dotenv import load_dotenv
@@ -12,24 +13,31 @@ information = """Hi my name is john doe. I am 25 years old and I am a software e
 if __name__ == "__main__":
     print("Hello from the langchain.")
     
-    # summary_template = """given the information about a person from I want to you to create:
+    summary_template = """Given the information {information} about a person from I want you to create:
+    1. a short summary
+    2. Interesting facts about them
+    """
     
-    # information: {information}
-
-    # 1. a short summary
-    # 2. two interesting facts about them
-    # """
-    
-    # summary_prompt_template = PromptTemplate(input_variables = ["information"], template = summary_template)
+    summary_prompt_template = PromptTemplate(input_variables = ["information"], template = summary_template)
     
     # # TODO: api key
-    # llm = ChatOpenAI(temperature = 0, model_name="gpt-3.5-turbo")
+    llm = CTransformers(
+        model = "../../local LLM/llama2-7b-q2chat.bin",
+        model_type = "llama",
+        max_new_tokens = 900,
+        temperature = 0.2
+    )
     
-    # chain = LLMChain(llm = llm, prompt = summary_prompt_template)
+    chain = LLMChain(llm = llm, prompt = summary_prompt_template)
     
     # response = chain.run(information = information)
     url = os.environ["API_ENDPOINT_PROFILE"]
     
+    # give the response from the api json in the chain
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url = url)
     
-    print(linkedin_data.json())
+    # give the response from the api json in the chain
+    # TODO: llm chain is depriciated now use llm chains runnables
+    response = chain.invoke(input = [{"information": information}])
+    
+    print(response["text"])
