@@ -14,7 +14,7 @@ load_dotenv()
 
 information = """Hi my name is john doe. I am 25 years old and I am a software engineer. I completed my Computer Science course from Stanford University and then i got internship at Google right after my university. Now I am working as a full time software engineer at Perplexity AI."""
 
-def get_summary(name: str) -> PersonIntel:
+def get_summary(name: str) -> tuple[PersonIntel, str]:
     linkedin_url_profile = linkedin_lookup_agent(name = "Manoj Kumar Baniya")
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url = linkedin_url_profile)
     
@@ -49,9 +49,9 @@ def get_summary(name: str) -> PersonIntel:
                                       "twitter_information": information}])
     
     # return response["text"]
-    return person_intel_parser.parse(response["text"])
+    return person_intel_parser.parse(response["text"]), linkedin_data.get("profile_pic_url") or None
 
-if __name__ == "__main__":
-    print("Hello from the langchain.")
+# if __name__ == "__main__":
+#     print("Hello from the langchain.")
     
-    response = get_summary(name = "Manoj Kumar Baniya")
+#     response = get_summary(name = "Manoj Kumar Baniya")
