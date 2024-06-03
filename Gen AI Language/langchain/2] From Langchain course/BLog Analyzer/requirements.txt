@@ -1,0 +1,5 @@
+langchain
+pinecone-client
+sentence_transformers
+langchain_community
+langchain_pinecone
