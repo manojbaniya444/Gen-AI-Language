@@ -1,0 +1,29 @@
+### LANGCHAIN CHAIN:
+
+# LCEL = Langchain Expression Language (LCEL)
+chain = prompt | model
+prompt will pass to the model
+
+# Chain Possibilities
+chain1 -> Chain2 -> Chain3 -> .....-> Final chain
+
+or have branch from one chain and  chain in parallel and meet in Final Chain
+
+or have branching from one chain to multiple Final Chains
+
+
+### CHAIN UNDER THE HOOD:
+the core of langchain chain is RunnableLambda.
+All the RunableLambda s are make chain in RunnableSequence
+
+
+### PARALLEL CHAINS:
+
+                            -> analyze 1 -> generate 1 -> content 1 ->
+prompt -> model -> parser --                                        ->final
+                            -> analyze 2 -> generate 2 -> content 2 => 
+
+
+### Branches
+
+chain with if else like conditional branch where only one chain will run from the multiple chains according to the conditional.
