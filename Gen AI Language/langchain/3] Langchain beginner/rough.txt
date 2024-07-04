@@ -39,3 +39,14 @@ document (10M tokens) -> chunks (1k tokens each) -> Embedding each chunk -> Stor
 
 ### RAG with MetaData
 to reduce hallucinate i.e provide source along with the context to the model.
+
+
+
+
+### AGENTS: LANGCHAIN
+
+
+        TOOLS
+action->observation->thought--->Final answer
+
+llm provided with specified prompt and tools to perform certain loop of tasks (cerain state and behaviour)
