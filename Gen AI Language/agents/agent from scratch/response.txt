@@ -1,0 +1,2 @@
+"tool_choice": "basic_calculator",
+"tool_input": '{"num1": 2, "num2": 2, "operation": "add"}'
