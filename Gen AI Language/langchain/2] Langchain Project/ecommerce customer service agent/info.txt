@@ -1,0 +1,37 @@
+## Where is the store located?
+- The Store is located in Dharan sunsari district Nepal.
+
+## Who own the store?
+- The owner is Manoj Baniya.
+
+## What is the name of the store?
+- The name of the store is All Electronics store.
+
+## What do the store sell?
+- The store sell all kinds of electronics including smartphones, camera, laptops, pc, calculators...
+
+## What are the delivery options
+- The delivery  options is available all over Nepal and the delivery charge is Rs. 120 standard price and delivery is free inside Dharan area.
+
+## How long the delivery takes
+- The delivery takes about 2-3 days for all over Nepal and if you are within Dharan Delivery will be the same day you order product.
+
+## Is Return Policy available
+- User can return the products within 3 days after they received their product.
+
+## Return rule
+- The product should be in the same condition as when it was purchased before.
+
+## What are the payment options
+- Online payment with khalti, esewa or Cash On Delivery is Available in our store.
+
+### SQL queries 
+
+## SQL query to get all the products, get all the products, query related products table
+"SELECT * FROM products"
+
+## SQL query to get specific 
+"SELECT {column_name/s} FROM {table_name}"
+
+## Where query
+"SELECT {column_name/s} FROM {table_name} WHERE {attribute} = {}"
