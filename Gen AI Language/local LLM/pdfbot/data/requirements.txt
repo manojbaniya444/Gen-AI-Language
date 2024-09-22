@@ -1,8 +1,0 @@
-ctransformers
-sentence-transformers
-pinecone-client
-langchain
-pypdf
-langchain_pinecone
-langchain-community
-python-dotenv
