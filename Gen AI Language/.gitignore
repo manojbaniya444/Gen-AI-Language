@@ -7,3 +7,4 @@ pyvenv.cfg
 *.bin
 bot
 sentence-transformers-local
+__pycache__
