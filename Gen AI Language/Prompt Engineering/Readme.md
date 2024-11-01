@@ -70,3 +70,5 @@ Be very specific about the instruction and task that we want.
 # Prompting Technique
 
 - [Zero shot and Few shot prompting](./zero_shot_few_shot_prompting.ipynb)
+- [Chain Of Thought Prompting](./chain_of_thought.ipynb)
+- [Prompt Chaining](./prompt_chaining.py)
