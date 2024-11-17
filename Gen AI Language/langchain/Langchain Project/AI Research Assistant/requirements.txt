@@ -1,4 +1,0 @@
-langchain
-duckduckgo-search
-beautifulsoup4
-requests
