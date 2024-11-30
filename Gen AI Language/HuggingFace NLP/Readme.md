@@ -15,3 +15,13 @@ Here fine tuning huggingface model with huggingface dataset.
 - [Basic Training](./Fine%20Tuning/Training.ipynb)
 - [Fine Tuning Example of BERT Model](./Fine%20Tuning/BERT-NER-FINETUNE.ipynb)
 - [BERT-NER Fine-Tune](./Fine%20Tuning/BERT-NER-FINETUNE.ipynb)
+
+# Datasets HF
+This folder contain use of HF datasets library to load, download and use to train.
+
+- [Overall Loading and Encoding of Dataset for BERT Sequence Classification](./Datasets%20HF/Dataset_01.ipynb)
+- [Load Dataset method use](./Datasets%20HF/Dataset_02.ipynb)
+- [Knowing dataset object](./Datasets%20HF/Dataset_03.ipynb)
+- [Preprocessing dataset](./Datasets%20HF/Dataset_04.ipynb)
+- [Creating own custom dataset](./Datasets%20HF/Dataset_05.ipynb)
+- [Uploading dataset to hub](./Datasets%20HF/Dataset_06.ipynb)
