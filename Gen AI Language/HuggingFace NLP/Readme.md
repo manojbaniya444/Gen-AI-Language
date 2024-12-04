@@ -9,7 +9,7 @@ In this folder basically understanding transformer library in huggingface with p
 - [Encoder, Decoder and Sequence to Sequence Model](./Transformer%20Model/Understanding-Transformer.ipynb)
 - [Model with Tokenizer](./Transformer%20Model/Using-All.ipynb)
 - [HuggingFace Transformer Overview](./Transformer%20Model/HF_Transformers_00.ipynb)
-
+- [Downloading Uploading Model File to HuggingFace Hub](./Transformer%20Model/HF_Transformers_01.ipynb)
 
 # Fine-Tuning
 Here fine tuning huggingface model with huggingface dataset.
@@ -17,6 +17,7 @@ Here fine tuning huggingface model with huggingface dataset.
 - [Basic Training](./Fine%20Tuning/Training.ipynb)
 - [Fine Tuning Example of BERT Model](./Fine%20Tuning/BERT-NER-FINETUNE.ipynb)
 - [BERT-NER Fine-Tune](./Fine%20Tuning/BERT-NER-FINETUNE.ipynb)
+- [Supervised Fine Tune TinyLlama 1b with Lora with Alpaca dataset](./Fine%20Tuning/Master_FineTune.ipynb)
 
 # Datasets HF
 This folder contain use of HF datasets library to load, download and use to train.
