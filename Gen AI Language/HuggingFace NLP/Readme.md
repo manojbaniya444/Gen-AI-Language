@@ -1,7 +1,9 @@
 # HuggingFace NLP
+
 This folder contains the use of huggingface model, dataset and other features like training, fine tuning and sharing.
 
 # Transformer Model
+
 In this folder basically understanding transformer library in huggingface with pipeline and using trained model.
 
 - [Understanding Pipeline](./Transformer%20Model/Transformer-01.ipynb)
@@ -12,6 +14,7 @@ In this folder basically understanding transformer library in huggingface with p
 - [Downloading Uploading Model File to HuggingFace Hub](./Transformer%20Model/HF_Transformers_01.ipynb)
 
 # Fine-Tuning
+
 Here fine tuning huggingface model with huggingface dataset.
 
 - [Basic Training](./Fine%20Tuning/Training.ipynb)
@@ -20,6 +23,7 @@ Here fine tuning huggingface model with huggingface dataset.
 - [Supervised Fine Tune TinyLlama 1b with Lora with Alpaca dataset](./Fine%20Tuning/Master_FineTune.ipynb)
 
 # Datasets HF
+
 This folder contain use of HF datasets library to load, download and use to train.
 
 - [Overall Loading and Encoding of Dataset for BERT Sequence Classification](./Datasets%20HF/Dataset_01.ipynb)
@@ -28,3 +32,8 @@ This folder contain use of HF datasets library to load, download and use to trai
 - [Preprocessing dataset](./Datasets%20HF/Dataset_04.ipynb)
 - [Creating own custom dataset](./Datasets%20HF/Dataset_05.ipynb)
 - [Uploading dataset to hub](./Datasets%20HF/Dataset_06.ipynb)
+
+# Tokenizers HF
+
+- [Overall Tokenizer](./Tokenizers/01_Overview_Tokenizers.ipynb)
+- [Pre Tokenize, Train, Load and Use Tokenizer](./Tokenizers/02_Tokenization_Pipeline.ipynb)

@@ -3,7 +3,6 @@ Hi I am Manoj Baniya , I am from Nepal and I am a Computer Engineering student i
 
 ## my cv
 I dont have my cv right now but you can view everything about me in this portfolio site easily.
-
 I have mentioned about my tech skill, projects, experience and educaton in this portfolio.
 
 ## about me
@@ -14,11 +13,7 @@ I love building scalable web application and staying up to date with the latest 
 I started my coding journey after I joined my Bachelor in Computer Engineering but I had interest in Technology since I was 10. I became familiar with coding couple of years ago and since then I have been hooked into it.
 
 ## My Education
-I completed my Secondary Level from Nambin English Boarding School in Jhapa Nepal.
-
-I completed my High School from Devi Secondary School Jhapa Nepal where I studied Physics Mathematics and Chemistry.
-
-Then I joined Bachelor in Computer Engineering at TU IOE in 2021.
+I completed my Secondary Level from Nambin English Boarding School in Jhapa Nepal. High School from Devi Secondary School Jhapa Nepal where I studied Physics Mathematics and Chemistry.Then I joined Bachelor in Computer Engineering at TU IOE in 2021.
 
 During my Computer Engineering I explored many domains in tech.
 
@@ -27,20 +22,22 @@ I love building web application which is interactive, engaging to user and scala
 I also like to train machine learning models especially Deep Neural Networks for common Computer Vision and Natural Language Processing task as hobby.
 Besides coding I like to listen music and play musical instrument.
 
-## my tech stach
+## my tech stack what I know about technology what programming knowledge I have
 I am comfortable coding in javascript, typescipt and python programming language.
-For the frontend I use React library with tailwind css for building.
-
-For the backend I use epxress js framework for building web server and sometimes I use plain node js without anything.
-
+For the frontend I use tech stack React library with tailwind css for building.
+For the backend I use epxress js framework for building web server and sometimes I use FastAPI.
 I am familiar with both relational and non relational database system and I use mongo db and postgreSQL for that.
 
 I also know basic devops and have basic experience with tools like Docker,git, Kubernetes and some CI CD tools.
 
 I also use Microsoft Azure for Cloud Services and has experience in deploying web app in cloud.
 
-## my projects
 I have done several personal projects and you can view at my github <link>https://github.com/manojbaniya444</link>
+
+Some of my projects to mention are:
+
+Project 0: Video to MP3
+used FFMPEG to video processing and express for server.
 
 Project 1. Ecommerce application
 Stack: React, Express, MongoDB, Tailwind css style
@@ -58,12 +55,12 @@ Project 4. Movie website
 Stack: React, Firebase, TMDB API for movie
 - use can search movies and get details about the movie and also watch trailer.
 
-## my working experience
+## my working experience, job
 I am still a fresher and have not joined any companies yet and yet to experience industry but have done some projects with friends in my college.
 
+My machine learning and ai project during college with my friends.
 College Project 1. Nepali License Plate Detection and Recognition
 Domain: Computer Vision, Deep Learning, python
-
 Trained a machine learning model to classify nepali characters and fine Tuned a YOLO model for license plate detection. Then built a tikinter app to allow user to send image or video then get the license plate characters predicted.
 
 This was a great experience because from data collection, labeling to training models and then integrating in graphical user interface was a challenging task and was not possible without our supervisor and friends support.
