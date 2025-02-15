@@ -1,11 +1,37 @@
 # Generative AI Language
+
 Popular generative AI technique to generate human like text by using **Natural Language Processing.**
 
-![Generative AI Language](../Images/DALL·E%202024-12-01%2014.27.00%20-%20A%20wide-format%20futuristic%20concept%20of%20a%20large%20language%20model%20represented%20visually%20as%20a%20vast,%20interconnected%20network%20of%20glowing%20neural%20pathways%20in%20a%20digi.png)
+# Quick Navigation
 
-This folder contains different concepts for generative AI:
-- **Building AI agents with LLM(Large Language Model)**
-- **Fine Tuning and Working with Huggingface Model, Dataset and Huggingface space**
-- **Building LLM applications with popular frameworks like langchain, langgraph, crewai.***
-- **Prompt Engineering**
-- **Modern techniques like Retrieval Augmented Generation**
+## Huggingface
+
+[HuggingFace Datasets](./HuggingFace%20NLP/Datasets%20HF/)
+[Fine Tuning LLM](./HuggingFace%20NLP/Fine%20Tuning/)
+[HuggingFace Transformers](./HuggingFace%20NLP/Transformer%20Model/)
+[HuggingFace Tokenizers](./HuggingFace%20NLP/Tokenizers/)
+
+## Langchain and Langgraph
+
+[Langchain Begineer](./Langchain/Langchain%20beginner%20concepts/)
+[Langchain with Javascript](./Langchain%20JS/)
+[Langchain Projects](./Langchain/Langchain%20Project/)
+[Langgraph Begineer](./LangGraph/)
+
+## LLM
+
+[Running LLM Locally](./local%20LLM/)
+
+## Prompt Engineering
+
+[Zero Shot and Few Shot Prompt](./Prompt%20Engineering/zero_shot_few_shot_prompting.ipynb)
+[Chain of Thought Prompt](./Prompt%20Engineering/chain_of_thought.ipynb)
+[Structured Output](./Prompt%20Engineering/structured_output.ipynb)
+[Tool use](./Prompt%20Engineering/tool_use.ipynb)
+
+## Retrieval Augmented Generation
+
+[RAG Basics](./RAG/RAG_basics.ipynb)
+[Query Transformation](./RAG/RAG_Query_Transformation_Technique.ipynb)
+[Query Construction](./RAG/RAG_Queryconstruction.ipynb)
+[Routing](./RAG//RAG_Routing.ipynb)
