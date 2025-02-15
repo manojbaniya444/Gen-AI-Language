@@ -8,3 +8,4 @@ pyvenv.cfg
 bot
 sentence-transformers-local
 __pycache__
+desktop.ini

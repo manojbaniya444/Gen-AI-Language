@@ -1,13 +1,11 @@
-# Generative AI
-Generative AI is a type of **Artificial Intelligence** technology that can produce various types of content including text, imagery, audio and synthetic data.
+# Generative AI Language
+Popular generative AI technique to generate human like text by using **Natural Language Processing.**
 
-This repository contains concepts of all type of generative ai.
+![Generative AI Language](../Images/DALL·E%202024-12-01%2014.27.00%20-%20A%20wide-format%20futuristic%20concept%20of%20a%20large%20language%20model%20represented%20visually%20as%20a%20vast,%20interconnected%20network%20of%20glowing%20neural%20pathways%20in%20a%20digi.png)
 
-![Generative AI Image](./Images/genai2.png)
-
-## Here are different kinds of Generative AI
-
-- [Generative AI Text](./Gen%20AI%20Language/)
-- [Generative AI Vision](./Gen%20AI%20Vision/)
-- [Generative AI Audio](./Gen%20AI%20Audio/)
-- [Generative AI MultiModal](./Gen%20AI%20MultiModal/)
+This folder contains different concepts for generative AI:
+- **Building AI agents with LLM(Large Language Model)**
+- **Fine Tuning and Working with Huggingface Model, Dataset and Huggingface space**
+- **Building LLM applications with popular frameworks like langchain, langgraph, crewai.***
+- **Prompt Engineering**
+- **Modern techniques like Retrieval Augmented Generation**
