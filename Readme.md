@@ -2,8 +2,6 @@
 
 Popular generative AI technique to generate human like text by using **Natural Language Processing.**
 
-# Quick Navigation
-
 ## Huggingface
 
 - [HuggingFace Datasets](./HuggingFace%20NLP/Datasets%20HF/)
